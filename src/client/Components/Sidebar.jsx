@@ -1,16 +1,10 @@
-import React from "react";
-import Navbar from "./Navbar"
-import Search from "./Search"
-import Chats from "./Chats"
+import React from 'react';
+import { Menu } from 'semantic-ui-react';
 
-const Sidebar = () => {
-  return (
-    <div className="sidebar">
-      <Navbar />
-      <Search/>
-      <Chats/>
-    </div>
-  );
-};
+import "./sidebar.css";
 
-export default Sidebar;
+export const SideBar = () => {
+    return (<Menu vertical fixed="left" borderless size="large" className="side_bar">
+    </Menu>
+    )
+}
