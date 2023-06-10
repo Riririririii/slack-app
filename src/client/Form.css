@@ -3,3 +3,7 @@
     height: 100vh;
     background: #eee;
 }
+
+.messagepanel {
+    padding-left: 300px !important;
+}
